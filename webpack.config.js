@@ -21,7 +21,7 @@ module.exports = {
 
 	output: {
 		// The name under which the editor will be exported.
-		library: 'ClassicEditor',
+		library: 'ckEditor',
 
 		path: path.resolve( __dirname, 'build' ),
 		filename: 'ckeditor.js',
@@ -80,7 +80,7 @@ module.exports = {
 							},
 							minify: true
 						} )
-					},
+					}
 				]
 			}
 		]

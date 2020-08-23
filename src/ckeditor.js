@@ -1,6 +1,6 @@
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import InlineEditorBase from '@ckeditor/ckeditor5-editor-inline/src/inlineeditor';
-import DocumentEditorBase from '@ckeditor/ckeditor5-editor-decoupled/src/decouplededitor';
+// import DocumentEditorBase from '@ckeditor/ckeditor5-editor-decoupled/src/decouplededitor';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
@@ -158,7 +158,7 @@ ClassicEditor.builtinPlugins = plugins;
 InlineEditor.builtinPlugins = plugins;
 // DocumentEditor.builtinPlugins = plugins
 const config = {
-	language: 'en',
+	language: 'zh-cn',
 	// ...
 	toolbar: [
 		'removeFormat',
@@ -286,6 +286,7 @@ const config = {
 	//     // return saveData( editor.getData() );
 	//   }
 	// }
+
 };
 
 ClassicEditor.defaultConfig = config;
