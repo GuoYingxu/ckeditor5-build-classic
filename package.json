@@ -91,5 +91,8 @@
   "eslintIgnore": [
     "build/**",
     "packages/**"
-  ]
+  ],
+  "dependencies": {
+    "mini-css-extract-plugin": "^0.10.0"
+  }
 }

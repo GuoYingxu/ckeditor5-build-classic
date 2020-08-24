@@ -28,7 +28,7 @@
 
 <script src="../build/ckeditor.js"></script>
 <script>
-	ClassicEditor.create( document.querySelector( '#editor' ) )
+	ckEditor.classicEditor.create( document.querySelector( '#editor' ) ,{language:'zh-cn'})
 		.then( editor => {
 			window.editor = editor;
 		} )
